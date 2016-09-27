@@ -2,7 +2,7 @@
 @echo off
 :a
 color 2
-mode con: cols=300 lines=78
+mode con: cols=150 lines=78
 
 cls
 
@@ -19,4 +19,5 @@ Ren *.* *.jpg
 
 explorer "C:\Users\%USERNAME%\Documents\Spotlight"
 explorer "C:\Users\%USERNAME%\Pictures\Spotlight"
+timeout /t 30 
 
